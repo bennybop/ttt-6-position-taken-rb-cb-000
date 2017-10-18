@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
-def position_taken?(board, index)
+def position_taken?(board, position)
 
-    
-  board[index] == !(" " || "")
+
+  board[position] == !(" " || "")
 
    end
