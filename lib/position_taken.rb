@@ -2,9 +2,9 @@
 def position_taken?(board, index)
 
 
-if board[index] !== ((" " || ""))
+ board[index] == ((" " || ""))
 
-else board[index] == "X" || "O"
+ board[index] == "X" || "O"
 
 end
 
